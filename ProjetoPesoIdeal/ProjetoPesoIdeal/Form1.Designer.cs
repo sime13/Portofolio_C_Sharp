@@ -38,12 +38,14 @@
             this.Nome = new System.Windows.Forms.Label();
             this.Altura = new System.Windows.Forms.Label();
             this.Sexo = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // textAltura
             // 
             this.textAltura.BackColor = System.Drawing.Color.NavajoWhite;
-            this.textAltura.Location = new System.Drawing.Point(43, 210);
+            this.textAltura.Location = new System.Drawing.Point(62, 223);
+            this.textAltura.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.textAltura.Name = "textAltura";
             this.textAltura.Size = new System.Drawing.Size(226, 32);
             this.textAltura.TabIndex = 1;
@@ -55,7 +57,8 @@
             this.cmbSexo.Items.AddRange(new object[] {
             "Feminin",
             "Masculino"});
-            this.cmbSexo.Location = new System.Drawing.Point(47, 285);
+            this.cmbSexo.Location = new System.Drawing.Point(66, 299);
+            this.cmbSexo.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.cmbSexo.Name = "cmbSexo";
             this.cmbSexo.Size = new System.Drawing.Size(148, 33);
             this.cmbSexo.TabIndex = 2;
@@ -63,7 +66,8 @@
             // textNome
             // 
             this.textNome.BackColor = System.Drawing.Color.NavajoWhite;
-            this.textNome.Location = new System.Drawing.Point(47, 147);
+            this.textNome.Location = new System.Drawing.Point(66, 161);
+            this.textNome.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.textNome.Name = "textNome";
             this.textNome.Size = new System.Drawing.Size(224, 32);
             this.textNome.TabIndex = 3;
@@ -72,9 +76,10 @@
             // 
             this.btnPesoIdeal.BackColor = System.Drawing.Color.Gray;
             this.btnPesoIdeal.FlatAppearance.BorderColor = System.Drawing.Color.BlanchedAlmond;
-            this.btnPesoIdeal.Location = new System.Drawing.Point(47, 360);
+            this.btnPesoIdeal.Location = new System.Drawing.Point(65, 384);
+            this.btnPesoIdeal.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnPesoIdeal.Name = "btnPesoIdeal";
-            this.btnPesoIdeal.Size = new System.Drawing.Size(148, 36);
+            this.btnPesoIdeal.Size = new System.Drawing.Size(149, 41);
             this.btnPesoIdeal.TabIndex = 4;
             this.btnPesoIdeal.Text = "&Peso Ideal";
             this.btnPesoIdeal.UseVisualStyleBackColor = false;
@@ -84,9 +89,10 @@
             // 
             this.btnLimpar.BackColor = System.Drawing.Color.Gray;
             this.btnLimpar.FlatAppearance.BorderColor = System.Drawing.Color.BlanchedAlmond;
-            this.btnLimpar.Location = new System.Drawing.Point(65, 403);
+            this.btnLimpar.Location = new System.Drawing.Point(236, 384);
+            this.btnLimpar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(103, 37);
+            this.btnLimpar.Size = new System.Drawing.Size(131, 41);
             this.btnLimpar.TabIndex = 5;
             this.btnLimpar.Text = "&Limpar";
             this.btnLimpar.UseVisualStyleBackColor = false;
@@ -96,9 +102,10 @@
             // 
             this.btnSair.BackColor = System.Drawing.Color.Gray;
             this.btnSair.FlatAppearance.BorderColor = System.Drawing.Color.BlanchedAlmond;
-            this.btnSair.Location = new System.Drawing.Point(64, 446);
+            this.btnSair.Location = new System.Drawing.Point(695, 61);
+            this.btnSair.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(104, 38);
+            this.btnSair.Size = new System.Drawing.Size(62, 33);
             this.btnSair.TabIndex = 6;
             this.btnSair.Text = "&Sair";
             this.btnSair.UseVisualStyleBackColor = false;
@@ -108,7 +115,8 @@
             // 
             this.Nome.AutoSize = true;
             this.Nome.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.Nome.Location = new System.Drawing.Point(46, 119);
+            this.Nome.Location = new System.Drawing.Point(65, 133);
+            this.Nome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Nome.Name = "Nome";
             this.Nome.Size = new System.Drawing.Size(63, 25);
             this.Nome.TabIndex = 7;
@@ -118,7 +126,8 @@
             // 
             this.Altura.AutoSize = true;
             this.Altura.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.Altura.Location = new System.Drawing.Point(46, 182);
+            this.Altura.Location = new System.Drawing.Point(65, 195);
+            this.Altura.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Altura.Name = "Altura";
             this.Altura.Size = new System.Drawing.Size(63, 25);
             this.Altura.TabIndex = 7;
@@ -129,11 +138,25 @@
             this.Sexo.AutoSize = true;
             this.Sexo.BackColor = System.Drawing.Color.DarkGray;
             this.Sexo.ForeColor = System.Drawing.Color.Black;
-            this.Sexo.Location = new System.Drawing.Point(47, 257);
+            this.Sexo.Location = new System.Drawing.Point(66, 270);
+            this.Sexo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Sexo.Name = "Sexo";
             this.Sexo.Size = new System.Drawing.Size(52, 25);
             this.Sexo.TabIndex = 7;
             this.Sexo.Text = "Sexo";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.Color.RosyBrown;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.richTextBox1.Location = new System.Drawing.Point(156, 531);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(533, 72);
+            this.richTextBox1.TabIndex = 8;
+            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
             // Form1
             // 
@@ -141,7 +164,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(811, 648);
+            this.ClientSize = new System.Drawing.Size(812, 648);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.Sexo);
             this.Controls.Add(this.Altura);
             this.Controls.Add(this.Nome);
@@ -153,7 +177,7 @@
             this.Controls.Add(this.textAltura);
             this.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(5);
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -176,5 +200,6 @@
         private System.Windows.Forms.Label Altura;
         private System.Windows.Forms.Label Sexo;
         private System.Windows.Forms.ComboBox cmbSexo;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }

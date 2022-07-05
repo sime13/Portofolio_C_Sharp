@@ -55,10 +55,12 @@ namespace ProjetoPesoIdeal
 
         private void btnLimpar_Click(object sender, EventArgs e)
         {
-            txtNome.Clear();
-            txtAltura.Clear();
+            txtNome.Update();
+            txtAltura.Update();
             cmbSexo.Text = " ";
             txtNome.Focus();
+
+            
         }
 
         private void btnSair_Click(object sender, EventArgs e)

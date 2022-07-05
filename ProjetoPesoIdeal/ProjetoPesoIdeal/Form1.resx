@@ -57,11 +57,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Mas as outras fórmulas existentes fornecem os seguintes resultados para esse mesmo indivíduo: Pela fórmula de Hamwi (1964), o peso ideal seria 77,3 kg. Pela fórmula de Devine (1974), o peso ideal seria 75,0 kg. Pela fórmula de Robinson (1983), o peso ideal seria 72,6 kg.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABLAAAALkCAIAAACQjFtDAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAA/7JJREFUeF7s/XecJEl1tg2/f77f+0iwM+2qy3vbXe39eO+9927drPeWhWVh8d4I
+        wAAADsABataJCQAA/7JJREFUeF7s/XecJEl1tg2/f77f+0iwM+2qy3vbXe39eO+9927drPeWhWVh8d4I
         IYEQQgJkAOEESEjCSEISSHgevEc44dld1rDfHXFnnT4VWVVdbWeW7fpdkxMZeSLSVFVkXB1Zmf9P2xPk
         1d660LS1tDaPU7YeqHQOaVcEWifpbJlE55POttaLCmergu1t1XRYnEyHltnT2bY00LqEIE1C7S0g3NEK
         IoE2DXKwKGhjGHCBwNprEAlgg58AxNtbEx1t8w3WosDsDIm1tdYj2tpCkHZKzR+yds4mOtr1XicD7anO
